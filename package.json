@@ -1,0 +1,20 @@
+{
+  "name": "gql2",
+  "version": "1.0.0",
+  "description": "gql2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": "https://github.com/hontips/gql2.git",
+  "author": "hontips<hontips0023@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ws": "^6.0.3",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.3"
+  }
+}
